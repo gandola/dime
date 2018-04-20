@@ -2,7 +2,8 @@
 
 Simple In-Memory database for currency conversion based on the [eurofxref](http://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist.zip) data.
 
-##Features:
+## Features
+
 - The database is updated automatically every day.
 - If there is no rate for a currency on the given date (e.g holiday), the latest known is used.
 - There are no rates for weekends so the friday rate is always used if present.
